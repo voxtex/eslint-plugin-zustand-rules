@@ -2,7 +2,7 @@ const { RuleTester } = require('eslint');
 const rule = require('../lib/rules/no-state-mutation');
 
 const ruleTester = new RuleTester({
-  parserOptions: { ecmaVersion: 2020, sourceType: 'module' },
+  languageOptions: { ecmaVersion: 2020, sourceType: 'module' },
 });
 
 ruleTester.run('no-state-mutation', rule, {

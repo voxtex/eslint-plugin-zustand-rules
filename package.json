@@ -21,18 +21,18 @@
   "author": "Paul Schoen",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^9.0.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^11.0.0",
     "@semantic-release/npm": "^12.0.1",
-    "@vercel/style-guide": "^6.0.0",
+    "@glasshouse/style-guide": "^1.1.2",
     "conventional-changelog-conventionalcommits": "^8.0.0",
-    "eslint": "^8.48.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^5.2.1",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.5.4",
     "jest": "^29.7.0",
     "requireindex": "^1.2.0",
     "semantic-release": "^24.1.2"
@@ -41,5 +41,5 @@
     "type": "git",
     "url": "git+https://github.com/paulschoen/eslint-plugin-zustand-rules.git"
   },
-  "prettier": "@vercel/style-guide/prettier"
+  "prettier": "@glasshouse/style-guide/prettier"
 }
